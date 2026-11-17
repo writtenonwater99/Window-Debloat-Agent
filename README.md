@@ -2,6 +2,8 @@
 
 A Windows debloating tool for AI agents and their owners. Use it to inventory installed software, plan the removal of unwanted Windows AI tools such as Microsoft Copilot, review Recall snapshots, and reduce optional Windows data collection (telemetry). The PowerShell collector is read-only. The agent delivers an owner-reviewed plan.
 
+Feel free to test locally with `.\Test-Review.ps1`. It checks the read-only inventory and reports which sections were accessible.
+
 ## Give this prompt to your agent
 
 > Use writtenonwater99/Window-Debloat-Agent to review my Windows PC. Read AGENTS.md, run the local inventory, identify unwanted apps and Windows AI features, and explain which privacy settings control optional data collection. Ask me about uncertain items and show the scope and consequences before I decide.
